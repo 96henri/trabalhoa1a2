@@ -1,0 +1,22 @@
+{% load static %}<!DOCTYPE html>
+<html lang="pt">
+    <div class="container-fluid">
+        {% include "header.html" %}
+
+        <body>
+
+            {% block content %}
+                <h1 align="center">Liga Brasileira de MUAYTHAI</h1>
+                <h4 align="center">Página corporativa da entidade.</h4>
+                <br><br><br><br><br><br><br>
+                <p align="center">Liga Brasileira de MUAYTHAI fundada em 2020 com o intuito de promover a
+            tradição do MUAYTHAI Tradicional em todos os estados do Brasil.</p>
+                <br><br><br><br><br><br><br><br><br><br>
+            {% endblock %}
+
+            {% include "footer.html" %}
+
+        </body>
+    </div>
+
+</html>
